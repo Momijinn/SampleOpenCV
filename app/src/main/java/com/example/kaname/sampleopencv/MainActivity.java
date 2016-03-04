@@ -39,7 +39,7 @@ import java.io.InputStream;
 
         LenaImage.setImageBitmap(bm); //元画像を挿入
 
-        grayLenaImage.setImageBitmap(setBinarization(bm));
+        grayLenaImage.setImageBitmap(setBinarization(bm)); //二値化画像を挿入
 
     }
 
